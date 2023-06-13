@@ -1,0 +1,144 @@
+::placeholder{
+    color: #414658 !important;
+}
+
+.col-md-3:hover div{
+    cursor: pointer;
+}
+
+.sidebarInner{
+    position: relative;
+    top: 110% ;
+    overflow: hidden !important;
+}
+#submit{
+    background-color: transparent !important;
+    border: 1px solid #dc3545;
+    color: #dc3545 !important;
+    width: 100px;
+    margin: auto;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+}
+#submit:hover:enabled{
+    background-color: #dc3545 !important;
+    color: #fff !important;
+    cursor: pointer;
+}
+.contain{
+    width: 90% !important;
+    padding-left: 75px !important ;
+}
+.overlay p{
+    font-weight: 500 !important;
+}
+#detailsImg{
+    width: 500px !important;
+    height: 500px !important;
+}
+html, body , *{
+    background-color: #0D0D0D !important;
+    
+}
+.search {
+    display: none ;
+}
+.home{
+    top: 0;
+    bottom: 0;
+
+    z-index: 99999999999 !important;
+}
+.home .barOuter{
+    width: 80px !important;
+z-index: 99999999999 !important;
+}
+/* .................START SIDEBAR................. */
+.sidebarInner i:hover{
+    color: rgba(214, 46, 51, 0.6) !important;
+    cursor: pointer;
+}
+.ingred{
+    background-color: #cff4fc !important ;
+    color: #055160;
+}
+.tags{
+    color: #842029;
+    background-color: #f8d7da !important;
+}
+.barOuter i:hover{
+    cursor: pointer;
+}
+.msg{
+    color: #842029;
+    background-color: #f8d7da !important;
+}
+.sidebar a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    margin: 1rem;
+
+    font-size: 2.5rem;
+}
+.sidebar{
+z-index: 9999 ;
+    display: flex;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -250px;
+    width: 250px;
+}
+.navBtn{
+    cursor: pointer;
+    left: 0 !important; 
+display: flex;
+justify-self: start !important;
+}
+.sidebarInner{
+    width: 100%;
+    background-color: #414658;   
+}
+
+.overlay p{
+    
+    background-color: transparent !important;
+}
+
+.overlay{
+    
+    background-color: #f9f6f6ca !important;
+    width: 100%;
+    height: 100%;
+    top: 110%;
+transition: 1s;
+}
+.col-md-3:hover .overlay{
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 15px;
+    overflow: hidden;
+    
+    background-color: #f9f6f6ca !important;
+}
+
+
+
+
+.loading-screen{
+    z-index: 999;
+    display: flex;
+    
+}
+
+.inner-loading-screen{
+    position: absolute;
+    z-index: 9;
+    background-color: #0D0D0D;
+    display: flex;
+
+}
